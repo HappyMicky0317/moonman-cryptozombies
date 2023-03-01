@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getKitty",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "isGestating",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "isReady",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cooldownIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "nextActionAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "siringWithId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "birthTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "matronId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sireId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "generation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "genes",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/zombiefeeding.sol": "KittyInterface"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ownable.sol": {
+			"keccak256": "0x3975d7bc1eed490de45aea9989ef691dc5cbe6fbde88cde80f1b570825a0f198",
+			"urls": [
+				"bzz-raw://78f615823cde88d4d5e3d07cda3cfad7f0bc57ff6ea5f0900a24b0c642cc80b1",
+				"dweb:/ipfs/QmR1UAo7Ym95oG2sXf84HpE1pH7F6Aeah8ruZPt4CMfWMg"
+			]
+		},
+		"contracts/zombiefactory.sol": {
+			"keccak256": "0x899f049a61906c3168926e88cb6871a6fe830887273f97f14e16342c171bede2",
+			"urls": [
+				"bzz-raw://d94ad4d12d0820b9e81d54a7f18ea29b581f4224dfbb4f68056a63604ea4f421",
+				"dweb:/ipfs/QmYw67SRM9cM1G7LYQSQE3TfeoPz4HutAudEPsqhvHxX6v"
+			]
+		},
+		"contracts/zombiefeeding.sol": {
+			"keccak256": "0x820b49ddee171a492dd5635cca200e45ec003fcb1486f9cabf2afab407daf613",
+			"urls": [
+				"bzz-raw://109785f322dfc562af1830fc0b0c39eebf3aa5183343938758b6d30695d3892e",
+				"dweb:/ipfs/Qmen1LadtnAdfutgD93c7e2Sa76xQgacsSCBMV1yeEF4ys"
+			]
+		}
+	},
+	"version": 1
+}
